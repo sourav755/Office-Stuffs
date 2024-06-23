@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-around;
   padding: 12px;
-  height: 90px;
+  height: 80px;
 }
 
 img {
@@ -38,11 +38,11 @@ img {
 }
 
 .rq-btn {
-  background: linear-gradient(to right, rgb(58, 58, 214), rgb(15, 4, 29));
+  background: linear-gradient(to right, rgb(42, 54, 218), rgb(164, 11, 202));
   border-radius: 8px;
   color: white;
   text-decoration: none;
-  padding: 8px;
+  padding: 12px;
 }
 
 .arrow-down {
@@ -52,8 +52,8 @@ img {
 .sect-1 {
   position: relative;
   color: white;
-  height: 100vh;
-  text-align: center;
+  height: 90vh;
+  /* text-align: center; */
 }
 
 .sect-1 video {
@@ -72,13 +72,46 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
 }
 
+.sect-1 .content h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 12px 0;
+  line-height: 60px;
+  font-weight: bolder;
+}
+
+.sect-1 .content p {
+  padding: 12px 0;
+  font-size: 18px;
+}
+
+.sect-1 .content button {
+  padding: 16px;
+  margin: 8px 0;
+  border-radius: 8px;
+  font-size: 16px;
+  background: linear-gradient(to right, rgb(42, 54, 218), rgb(164, 11, 202));
+  border: none;
+  color: white;
+}
+
+.sect-1 .content button:hover {
+  background: linear-gradient(to left, rgb(42, 54, 218), rgb(164, 11, 202));
+}
+
+.custom-hr {
+  width: 40%;
+  height: 4px;
+  color: white;
+  background-color: white;
+}
 /* Service hovering section */
 .sv {
   position: relative;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .servs {
@@ -132,4 +165,8 @@ img {
 
 .dot {
   color: blue;
+}
+
+button {
+  cursor: pointer;
 }
